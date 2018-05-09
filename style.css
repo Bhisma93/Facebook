@@ -1,0 +1,166 @@
+html {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 233, 233);
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topbar {
+    width: 100%;
+    background-color: rgb(74, 74, 177);
+    display: flex;
+    height: 5%;
+}
+
+.topbar ul {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    padding-top: 10px;
+}
+
+.leftside {
+    justify-content: flex-start;
+}
+
+.leftside img {
+    padding-right: 5px;
+    padding-left: 3px;
+}
+
+.leftside input {
+    width: 300%;
+}
+
+.rightside {
+    justify-content: center;
+}
+
+.rightside li {
+    padding: 0 15px 0 15px;
+}
+
+.mainContainer {
+    height: 100%;
+    border: 5px black dashed;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 50px 0 50px;
+}
+
+.leftbar {
+    height: 100%;
+    width: 15%;
+    border: 5px red dashed;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    width: 100%;
+    height: 5%;
+    border: 5px magenta solid;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.links {
+    width: 100%;
+    height: 20%;
+    border: 5px violet solid;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.shortcuts {
+    width: 100%;
+    height: 8%;
+    border: 5px grey solid;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.explore {
+    width: 100%;
+    height: 35%;
+    border: 5px black solid;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.create {
+    width: 100%;
+    height: 30%;
+    border: 5px salmon solid;
+    background-color: white;
+}
+
+.feed {
+    height: 100%;
+    width: 50%;
+    border: 5px yellow dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightbar {
+    height: 100%;
+    width: 27%;
+    border: 5px purple dashed;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post {
+    width: 95%;
+    height: 13%;
+    border: 5px blue solid;
+    background-color: white;
+    margin-bottom: 12px;
+}
+
+.gossip {
+    width: 95%;
+    height: 80%;
+    border: 5px orange solid;
+    background-color: white;
+}
+
+.stories {
+    width: 100%;
+    height: 25%;
+    border: 5px brown solid;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.trending {
+    width: 100%;
+    height: 25%;
+    border: 5px green solid;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.requests {
+    width: 100%;
+    height: 50%;
+    border: 5px pink solid;
+    background-color: white;
+}
