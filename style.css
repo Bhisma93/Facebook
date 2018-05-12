@@ -67,6 +67,7 @@ li {
     border: 5px red dashed;
     display: flex;
     flex-direction: column;
+    background-color: rgb(235, 233, 233);
 }
 
 .name {
@@ -75,6 +76,7 @@ li {
     border: 5px magenta solid;
     background-color: white;
     margin-bottom: 5px;
+    background-color: rgb(235, 233, 233);
 }
 
 .links {
@@ -83,6 +85,7 @@ li {
     border: 5px violet solid;
     background-color: white;
     margin-bottom: 5px;
+    background-color: rgb(235, 233, 233);
 }
 
 .shortcuts {
@@ -91,6 +94,7 @@ li {
     border: 5px grey solid;
     background-color: white;
     margin-bottom: 5px;
+    background-color: rgb(235, 233, 233);
 }
 
 .explore {
@@ -99,6 +103,7 @@ li {
     border: 5px black solid;
     background-color: white;
     margin-bottom: 5px;
+    background-color: rgb(235, 233, 233);
 }
 
 .create {
@@ -106,6 +111,7 @@ li {
     height: 30%;
     border: 5px salmon solid;
     background-color: white;
+    background-color: rgb(235, 233, 233);
 }
 
 .feed {
